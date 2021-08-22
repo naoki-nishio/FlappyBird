@@ -5,7 +5,36 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>BB42D96F-8221-4CB5-A725-0FDA779020FC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>BB42D96F-8221-4CB5-A725-0FDA779020FC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>FlappyBird-cdrwdalunsoretevdedpddvaunrp</string>
+			<key>timeStartedRecording</key>
+			<real>651326725.01380599</real>
+			<key>timeStoppedRecording</key>
+			<real>651326727.07599103</real>
+			<key>title</key>
+			<string>Build target FlappyBird</string>
+			<key>uniqueIdentifier</key>
+			<string>BB42D96F-8221-4CB5-A725-0FDA779020FC</string>
+		</dict>
+	</dict>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>
