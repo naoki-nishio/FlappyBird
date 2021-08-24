@@ -283,13 +283,12 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             //scale(by scale: CGFloat, duration sec: TimeInterval)
             
             
-            //bird.removeFromParent()
-            //wallNode.removeFromParent()
-            //if contact.bodyA == itemNode{
+      
+            if (contact.bodyA.categoryBitMask & itemCategory) == itemCategory {
             contact.bodyA.node!.removeFromParent()
-           // }else if contact.bodyB == itemNode{
-            //contact.bodyA.node!.removeFromParent()
-            //}
+            }else if (contact.bodyB.categoryBitMask & itemCategory) == itemCategory{
+            contact.bodyB.node!.removeFromParent()
+            }
             
             
             
@@ -346,14 +345,15 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         let repeatScrollitem = SKAction.repeatForever(SKAction.sequence([moveitem, resetitem]))
         
         for i in 0..<needitemNumber*10 {
-             let random:CGFloat = 100
+       //      let random:CGFloat = 100
+            let random_y = CGFloat.random(in: -100...100)
             let sprite = SKSpriteNode(texture: itemTexture)
             sprite.zPosition = -60 // 一番後ろになるようにする
 
             // スプライトの表示する位置を指定する
             sprite.position = CGPoint(
                 x: itemTexture.size().width / 2 + itemTexture.size().width * CGFloat(i*10),
-                y: 500 - random
+                y: self.frame.height / 2 - random_y
 )
             
  /*           sprite.physicsBody?.categoryBitMask = self.itemCategory

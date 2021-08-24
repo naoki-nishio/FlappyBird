@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>BB42D96F-8221-4CB5-A725-0FDA779020FC</key>
+		<key>CA7F9C13-84BB-4CDE-9C9F-24607982A474</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>BB42D96F-8221-4CB5-A725-0FDA779020FC.xcactivitylog</string>
+			<string>CA7F9C13-84BB-4CDE-9C9F-24607982A474.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>FlappyBird-cdrwdalunsoretevdedpddvaunrp</string>
 			<key>timeStartedRecording</key>
-			<real>651326725.01380599</real>
+			<real>651412994.08965802</real>
 			<key>timeStoppedRecording</key>
-			<real>651326727.07599103</real>
+			<real>651412998.22106194</real>
 			<key>title</key>
 			<string>Build target FlappyBird</string>
 			<key>uniqueIdentifier</key>
-			<string>BB42D96F-8221-4CB5-A725-0FDA779020FC</string>
+			<string>CA7F9C13-84BB-4CDE-9C9F-24607982A474</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
